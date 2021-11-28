@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Maker</title>
+  <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+<!-- div with id main -->
+<div id="main">
+<!-- heading -->
+<h1>Request Maker</h1>
+<!-- div for url -->
+<div class="container">
+<input type="text" id="url" placeholder="Enter url"></input>
+</div>
+<!-- div for request type-->
+<div class="container">
+<label for="get">Request Type:</label>
+<input type="radio" id="get" name="requestType" checked>GET</input>
+<input type="radio" id="post" name="requestType">POST</input>
+</div>
+<!-- div for Request JSON-->
+<div class="container">
+<textarea id="RequestJson" placeholder="Enter Request Json"></textarea>
+</div>
+<!-- button to get response -->
+<button id="getResponse" class="btn">Response</button>
+<!-- div for Response-->
+<div class="container">
+<textarea id="Response" placeholder="The response will be shown here"></textarea>
+</div>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main{
+  text-align: center;
+  font-family: courier new;
+  font-weight:bold;
+}
+#main h1{
+  text-align: center;
+  margin: 20px;
+}
+.container{
+  margin: 15px;
+}
+.container label{
+  margin: 20px;
+}
+.container input {
+  padding: 10px;
+  line-height: 15px;
+  border-radius: 8px;
+  outline: none;
+}
+.container textarea{
+  padding: 10px;
+  height: 150px;
+  border-radius: 8px;
+  border: 2px solid black;
+  outline: none;
+  width: 70%;
+}
+.btn{
+  border-radius: 8px;
+  line-height: 35px;
+  width: 30%;
+  background: transparent;
+  margin: 15px;
+}
